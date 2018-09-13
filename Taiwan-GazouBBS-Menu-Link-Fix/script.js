@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Taiwan GazouBBS Menu Link Fix
 // @namespace    http://hollen9.yabi.me/userstyle/tawian-gazoubbs-menu-link-fix
-// @version      0.2
+// @version      0.3
 // @description  取消選單追蹤行為，同時也修復了連結導向。目前主要應用在Ｋ２
 // @author       Hollen9
 // @include      *://*komica2.net/bbsmenu*
