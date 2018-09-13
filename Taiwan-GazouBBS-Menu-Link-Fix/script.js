@@ -10,7 +10,7 @@
 
 (function() {
     'use strict';
-    let oBrokenLinks = document.querySelectorAll("a[onclick^=trackInboundLink]");
+    let oBrokenLinks = document.querySelectorAll("a[onclick^=track]");
     const regex = /track.*boundLink.*; return false;/gm;
     oBrokenLinks.forEach(function(o)
     {
