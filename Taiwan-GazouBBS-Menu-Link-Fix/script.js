@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Taiwan GazouBBS Menu Link Fix
 // @namespace    http://hollen9.yabi.me/userstyle/tawian-gazoubbs-menu-link-fix
-// @version      0.1
+// @version      0.2
 // @description  取消選單追蹤行為，同時也修復了連結導向。目前主要應用在Ｋ２
 // @author       Hollen9
 // @include      *://*komica2.net/bbsmenu*
@@ -11,7 +11,7 @@
 (function() {
     'use strict';
     let oBrokenLinks = document.querySelectorAll("a[onclick^=trackInboundLink]");
-    const regex = /trackInboundLink.*; return false;/gm;
+    const regex = /track.*boundLink.*; return false;/gm;
     oBrokenLinks.forEach(function(o)
     {
         let oAttrOnclick = o.getAttribute("onclick");
