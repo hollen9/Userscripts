@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Taiwan GazouBBS Menu Unite
 // @namespace    http://hollen9.yabi.me/userstyle/tawian-gazoubbs-menu-unite
-// @version      0.1
+// @version      0.11
 // @description  以台灣 BBS 為主，連結全世界的 GazouBBS 框架站點。
 // @author       Hollen9
 // @include      *://*komica.org/bbsmenu.html
@@ -71,6 +71,7 @@
         let oSt = document.createElement("style");
         oSt.innerHTML = `
             #SwitchPanel {
+                text-align: left !important;
                 position: fixed;
                 top: 0;
                 left: 0;
