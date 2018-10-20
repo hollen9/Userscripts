@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Taiwan GazouBBS Menu Unite
 // @namespace    http://hollen9.yabi.me/userstyle/tawian-gazoubbs-menu-unite
-// @version      0.11
+// @version      0.12
 // @description  以台灣 BBS 為主，連結全世界的 GazouBBS 框架站點。
 // @author       Hollen9
 // @include      *://*komica.org/bbsmenu.html
 // @include      *://*komica2.net/bbsmenu.htm
+// @include      *://*komica2.net/bbsmenu*
 // @include      *://*npnt.me/menu.htm
 // @include      *://*k3-bbs.com/menu.htm
 // @include      *://*camiko.org/bbsmenu.htm
